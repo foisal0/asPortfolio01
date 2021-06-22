@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-area{
+    height: 50px;
+}
+.nav-area ul{
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+    width: 50%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  */
+}
+.nav-area li{
+    float: left;
+    
+    margin-left: 15%;
+    font-weight: 700;
+    padding: 2px 2px;
+}
+li>a{
+    text-decoration: none;
+    color: #000;
+}
+section{
+    height: 500px;
+}
+.half-width{
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    width: 40%;
+
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #343a40;
+    margin: 2px 0px;
+}
+.half-width h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: #343a40;
+}
+.color-high{
+    color: #fb5607;
+}
+
+.button-op{
+    text-decoration: none;
+    background: linear-gradient(45deg,#f4a261,#e63946);
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.half-width>img{ 
+    height: 30em;
+    padding-left: 20%;
+}
+.margin-add{
+    margin-top: 5%;
+}
+a>img{
+    height: 15px;
+}
+.project-area{
+    background-color: #f4f3ee;
+    height: 600px;
+}
+.project-area h1{
+    text-align: center;
+    padding: 7% 0px;
+    margin:0;
+}
+.third-half{
+    float: left;
+    width: 22%;
+    background-color: white;
+    margin: 0px calc(5%/6);
+    border-radius: 5%;
+}
+.third-half{
+    padding: 10px 20px;
+}
+
+
+.third-half img {
+    width: 100%;
+}
+.tmargin-add{
+    margin-left: 12%;
+}
+
+.purple-area{
+    margin: 5% 28%;
+    height: 30%;
+    color: white;
+    border-radius: 15px;
+    background: url("images/Group_purple.png") no-repeat center;
+}
+.purple-area h1{
+    display: inline-block;
+    padding: 4% 8%;
+    font-size: 35px;
+}
+.button-foot{
+    margin-left: 125px;
+}
+.foot-con {
+    text-align: center;
+}
+.foot-con h1{
+    font-size: 30px;
+}
+.foot-imgs img{
+    height: 50px;
+    padding: 2% 15px;
+}
